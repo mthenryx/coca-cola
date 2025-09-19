@@ -9,7 +9,7 @@ body{
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
+  background: linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#e71e25);
 }
 
 .background-image{
@@ -30,7 +30,7 @@ header nav{
   display: flex;
   align-items: center;
   gap: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 75px;
   font-family: sans-serif;
   cursor: pointer;
@@ -64,6 +64,19 @@ footer{
   justify-content: flex-end;
   align-items: flex-start;
   margin-right: 75px;
+
+}
+
+.map-image{
+    height: 50px;
+    width: 70px;
+    display: flex;
+}
+
+.menu-burger{
+    height: 30px;
+    width: 30px;
+    display: flex;
 }
 
 @media (max-width:768px){
